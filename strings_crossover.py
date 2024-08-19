@@ -38,7 +38,7 @@ result.length = inputArray[i].length.
 [output] integer
 '''
 
-def solution(a, r):
+def f(a, r):
     count = 0
     while len(a) > 1:
         b = a[0]
