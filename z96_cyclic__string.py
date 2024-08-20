@@ -23,8 +23,6 @@ Guaranteed constraints:
 3 ≤ s.length ≤ 15.
 
 [output] integer
-
-[Python 3] Syntax Tips
 '''
 def f(s):
     return next((i + 1 for i in range(len(s)) if s in s[0:i+1] * (len(s) // (i+1) + 1)), 0)
