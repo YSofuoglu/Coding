@@ -12,10 +12,6 @@ where positive numbers represent positions occupied by players. After the team g
 one position in a clockwise direction, so the player in position 2 moves to position 1, the player in position 3 moves
 to position 2, and so on, with the player in position 1 moving to position 6.
 
-Here's how the players change their positions:
-
-
-
 Given the current formation of the team and the number of times k it gained the serve, find the initial position of
 each player in it.
 
